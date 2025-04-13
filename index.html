@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>GuessTheNumber</title>
 </head>
 <link rel="stylesheet" href="Guessno.css" />
 <body id="body">
     <h1 class="heading">Guess The Number</h1>
-    <p class="game-condition text-center">(Between 1 To 20)</p>
+    <p class="game-condition text-center">(Between 0 To 20)</p>
     <button type="button" class="btn" onclick="playAgain()">Play Again</button>
     <hr/><hr/>
 
@@ -16,12 +18,12 @@
         <div >
             <h2 id="Result">Guess Number</h2>
             <input type="number" id="num-input"/>
-            <button type="button" id="btn" onclick="checkGuess()">Check</button>
+            <button type="button" id="btn" class="btn" onclick="checkGuess()">Check</button>
         </div>
         <div>
             <h4>Score</h4>
-            <p>Your Score: <span>-</span></p>
-            <p>High Score: <span>-</span></p>
+            <p>Your Score: <span id="score">-</span></p>
+            <p>High Score: <span id="highscore">-</span></p>
         </div>
     </div>
 

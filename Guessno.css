@@ -24,3 +24,11 @@
     padding: 40px;
     margin: 0 auto;
 }
+
+.btn{
+    padding: 5px 10px;
+    font-weight: bold;
+}
+#num-input{
+    padding: 5px 10px;
+}
