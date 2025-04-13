@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>GuessTheNumber</title>
+</head>
+<link rel="stylesheet" href="Guessno.css" />
+<body id="body">
+    <h1 class="heading">Guess The Number</h1>
+    <p class="game-condition text-center">(Between 1 To 20)</p>
+    <button type="button" class="btn" onclick="playAgain()">Play Again</button>
+    <hr/><hr/>
+
+    <h2 id="correct-guess" class="text-center">?</h2>
+
+    <div class="container">
+        <div >
+            <h2 id="Result">Guess Number</h2>
+            <input type="number" id="num-input"/>
+            <button type="button" id="btn" onclick="checkGuess()">Check</button>
+        </div>
+        <div>
+            <h4>Score</h4>
+            <p>Your Score: <span>-</span></p>
+            <p>High Score: <span>-</span></p>
+        </div>
+    </div>
+
+    <script src="Guessno.js"></script>
+</body>
+</html>

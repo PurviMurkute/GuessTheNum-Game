@@ -1,0 +1,26 @@
+.heading{
+    margin-top: 50px;
+    text-align: center;
+}
+.text-center{
+    text-align: center;
+}
+
+#correct-guess{
+    border: 2px solid #000;
+    width: 10%;
+    padding: 30px 5px;
+    display: block;
+    margin: 50px auto;
+  
+}
+
+.container{
+    border: 1px solid #000;
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 40px;
+    margin: 0 auto;
+}
